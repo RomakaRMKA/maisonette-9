@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "portrait": "src/assets/staff/tamamo.png",
+    "name": "Tamamo",
+    "job": "Owner and Hostess",
+    "tags": [
+      {"text": "She/Her ", "color": "pink"},
+      {"text": "No ERP", "color": "red"},
+      {"text": "EN/FR", "color": "purple"}
+    ]
+  },
+  {
+    "id": 2,
+    "portrait": "src/assets/staff/akumu.png",
+    "name": "Akumu",
+    "job": "Head Mistress",
+    "tags": [
+      {"text": "She/Her", "color": "pink"},
+      {"text": "No ERP", "color": "red"},
+      {"text": "EN/FR", "color": "purple"}
+    ]
+  },
+  {
+    "id": 3,
+    "portrait": "src/assets/staff/tora.png",
+    "name": "Tora",
+    "job": "Host",
+    "tags": [
+      {"text": "He/Him - They/Them (NB)", "color": "purple"},
+      {"text": "Bisexual Sapphic", "color": "purple"},
+      {"text": "ERP Ok", "color": "green"},
+      {"text": "EN Only", "color": "red"}
+    ]
+  },
+  {
+    "id": 4,
+    "portrait": "src/assets/staff/hwa.png",
+    "name": "Hwa",
+    "job": "Host / Medic",
+    "tags": [
+      {"text": "He/They", "color": "purple"},
+      {"text": "No ERP", "color": "red"},
+      {"text": "EN/FR", "color": "purple"}
+    ]
+  },
+  {
+    "id": 5,
+    "portrait": "src/assets/staff/leo.png",
+    "name": "Léo",
+    "job": "Host",
+    "tags": [
+      {"text": "He/They", "color": "purple"},
+      {"text": "No ERP", "color": "red"},
+      {"text": "EN/FR", "color": "purple"}
+    ]
+  }
+  
+
+]

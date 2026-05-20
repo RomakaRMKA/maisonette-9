@@ -1,28 +1,6 @@
 [
   {
     "id": 1,
-    "portrait": "src/assets/staff/tamamo.png",
-    "name": "Tamamo",
-    "job": "Owner and Hostess",
-    "tags": [
-      {"text": "She/Her ", "color": "pink"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  },
-  {
-    "id": 2,
-    "portrait": "src/assets/staff/akumu.png",
-    "name": "Akumu",
-    "job": "Head Mistress",
-    "tags": [
-      {"text": "She/Her", "color": "pink"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  },
-  {
-    "id": 3,
     "portrait": "src/assets/staff/cherry.png",
     "name": "Cherry",
     "job": "DJ",
@@ -33,7 +11,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 2,
     "portrait": "src/assets/staff/shaina.png",
     "name": "Shaina",
     "job": "Blackjack Dealer",
@@ -44,35 +22,12 @@
     ]
   },
   {
-    "id": 5,
-    "portrait": "src/assets/staff/tora.png",
-    "name": "Tora",
-    "job": "Host",
-    "tags": [
-      {"text": "He/Him - They/Them (NB)", "color": "blue"},
-      {"text": "Bisexual Sapphic", "color": "purple"},
-      {"text": "ERP Ok", "color": "green"},
-      {"text": "EN Only", "color": "red"}
-    ]
-  },
-  {
-    "id": 6,
+    "id": 3,
     "portrait": "src/assets/staff/mordy.png",
-    "name": "Mordy",
+    "name": "Mordiel",
     "job": "Barmaid / Photographer",
     "tags": [
       {"text": "She/Her", "color": "pink"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  },
-  {
-    "id": 7,
-    "portrait": "src/assets/staff/hwa.png",
-    "name": "Hwa",
-    "job": "Host / Medic",
-    "tags": [
-      {"text": "He/They", "color": "purple"},
       {"text": "No ERP", "color": "red"},
       {"text": "EN/FR", "color": "purple"}
     ]

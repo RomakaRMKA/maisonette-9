@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Restless Dreams",
+    "description": "Noscean Rhum, La Noscean Oranges, Strawberry Syrup.",
+    "price": 5000
+  },
+  {
+    "id": 2,
+    "name": "Null Moon",
+    "description": "Cherry Blossom Sake from Namai, Persimmon from Namai, Garlean Soda, Lemon from the Ruby Sea.",
+    "price": 5000
+  },
+  {
+    "id": 3,
+    "name": "Magdalene",
+    "description": "Ishgardian Cognac, Gridanian Thyme, Solution 9 Soda, Garlean Cherry Liquor.",
+    "price": 5000
+  },
+  {
+    "id": 4,
+    "name": "Monochrome Night",
+    "description": "Vodka from Shaaloani, Gridanian Tomato Juice, Noscean Lemon Juice, Tabasco, Salt, Celery Salt, Pepper.",
+    "price": 5000
+  },
+  {
+    "id": 5,
+    "name": "Only You",
+    "description": "Gin, Hingashi Peaches, Gridanian Lemon Juice, Gridanian Raspberry.",
+    "price": 10000
+  },
+  {
+    "id": 6,
+    "name": "Tender Sugar",
+    "description": "Dalmascan Pineapple Tequila, Dalmascan Pineapple Juice, Uldian Champagne.",
+    "price": 10000
+  },
+  {
+    "id": 7,
+    "name": "Lady Maria",
+    "description": "Thavnairian Pomegranate Vodka, Gridanian Vodka, Pomegranate Juice, Pomegranate Seeds.",
+    "price": 10000
+  },
+  {
+    "id": 8,
+    "name": "Blank Fairy",
+    "description": "Garlean Brandy, Ishgardian Vodka, Gridanian Absinthe, Solution 9 Gin, Doman Blackberry Liquor.",
+    "price": 10000
+  }
+]

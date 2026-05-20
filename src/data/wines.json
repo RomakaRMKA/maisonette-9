@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Gridanian Wine",
+    "description": "",
+    "price": 10000
+  },
+  {
+    "id": 2,
+    "name": "Ul'dahn Wine",
+    "description": "",
+    "price": 30000
+  },
+  {
+    "id": 3,
+    "name": "Ishgardian Wine",
+    "description": "",
+    "price": 60000
+  },
+  {
+    "id": 4,
+    "name": "La Noscean Wine",
+    "description": "",
+    "price": 100000
+  },
+  {
+    "id": 5,
+    "name": "Hingashi Luxury Cherry Sake",
+    "description": "",
+    "price": 100000
+  },
+  {
+    "id": 6,
+    "name": "Doman Persimmon Sake",
+    "description": "",
+    "price": 200000
+  },
+  {
+    "id": 7,
+    "name": "Champagne Shower",
+    "description": "",
+    "price": 100000
+  }
+]

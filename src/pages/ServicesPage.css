@@ -1,0 +1,19 @@
+.services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.service-item {
+    max-width: 525px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    background: var(--bg);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+h3 {
+    margin-top: 0;
+}

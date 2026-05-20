@@ -15,8 +15,22 @@
 
 .menu-item-card {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .menu-item-price {
     font-size: 1.25rem;
+}
+
+#menu.content-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
 }

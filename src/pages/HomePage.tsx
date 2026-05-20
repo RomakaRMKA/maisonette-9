@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <section className="content-panel" id="home">
+    <section className="content-panel" id="home" style={{ textAlign: "center" }}>
       <h2>~Heaven’s Night~</h2>
       <p>
         Enter Paradise, feel the pleasure.<br />

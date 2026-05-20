@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Rust",
+    "description": "Solution 9 Soda, Gridanian Cherry Juice, Noscean Blood Orange, Cinnamon.",
+    "price": 2500
+  },
+  {
+    "id": 2,
+    "name": "Promise",
+    "description": "Gridanian Raspberry Juice, Ul'dahn Mint, Pineapple Syrup.",
+    "price": 2500
+  },
+  {
+    "id": 3,
+    "name": "The Mist",
+    "description": "Noscean Pineapple Juice, Sharlayan Kiwi, Garlean Soda.",
+    "price": 2500
+  }
+]

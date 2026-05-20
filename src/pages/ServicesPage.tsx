@@ -1,9 +1,11 @@
+import './ServicesPage.css'
+
 function ServicesPage() {
 	return (
 		<section className="content-panel" id="services">
+            <p style={{ fontStyle: "italic", textAlign: "center", marginBottom: "1rem" }}>Staff can decline some services to you.</p>
 			<div className="services-container">
                 <div className="service-item">
-                    <p style={{ fontStyle: "italic" }}>Staff can decline some services to you.</p>
                     <h3>Hosts and Hostesses</h3>
                     <p>
                         The hosts and hostesses are thrilled to talk with you and more !<br />
@@ -44,6 +46,13 @@ function ServicesPage() {
                     <p>
                         We do offer G-pose services. Ask the bar or the front desk to see if anyone is available !<br />
                         You must be 18+ to purchase those services.
+                    </p>
+                </div>
+                <div className="service-item">
+                    <h3>Blackjack</h3>
+                    <p>
+                        Heaven's Night hosts a blackjack table upstairs ! Our resident dealer will be more than happy to see you <s>waste</s> gamble your gil in front of her pretty eyes.<br />
+                        Bets start at 10k gils and can go up to 1 million gils. Don't hesitate to hit up our dealer !
                     </p>
                 </div>
             </div>

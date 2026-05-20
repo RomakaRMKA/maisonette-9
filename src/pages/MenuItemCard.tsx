@@ -1,3 +1,5 @@
+import './MenuPage.css'
+
 interface MenuItemCardProps {
   name: string;
   description: string;
