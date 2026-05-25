@@ -1,60 +1,63 @@
 [
-  {
-    "id": 1,
-    "portrait": "src/assets/staff/tamamo.png",
-    "name": "Tamamo",
-    "job": "Owner and Hostess",
-    "tags": [
-      {"text": "She/Her ", "color": "pink"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  },
-  {
-    "id": 2,
-    "portrait": "src/assets/staff/akumu.png",
-    "name": "Akumu",
-    "job": "Head Mistress",
-    "tags": [
-      {"text": "She/Her", "color": "pink"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  },
-  {
-    "id": 3,
-    "portrait": "src/assets/staff/tora.png",
-    "name": "Tora",
-    "job": "Host",
-    "tags": [
-      {"text": "He/Him - They/Them (NB)", "color": "purple"},
-      {"text": "Bisexual Sapphic", "color": "purple"},
-      {"text": "ERP Ok", "color": "green"},
-      {"text": "EN Only", "color": "red"}
-    ]
-  },
-  {
-    "id": 4,
-    "portrait": "src/assets/staff/hwa.png",
-    "name": "Hwa",
-    "job": "Host / Medic",
-    "tags": [
-      {"text": "He/They", "color": "purple"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  },
-  {
-    "id": 5,
-    "portrait": "src/assets/staff/leo.png",
-    "name": "Léo",
-    "job": "Host",
-    "tags": [
-      {"text": "He/They", "color": "purple"},
-      {"text": "No ERP", "color": "red"},
-      {"text": "EN/FR", "color": "purple"}
-    ]
-  }
-  
-
+    {
+        "id": 1,
+        "portrait": "src/assets/staff/tamamo.png",
+        "name": "Tamamo",
+        "job": "Owner and Hostess",
+        "bio": "",
+        "tags": [
+            {"text": "She/Her ", "color": "pink"},
+            {"text": "No ERP", "color": "red"},
+            {"text": "EN/FR", "color": "purple"}
+        ]
+    },
+    {
+        "id": 2,
+        "portrait": "src/assets/staff/tora.png",
+        "name": "Tora",
+        "job": "Host",
+        "bio": "'Here for a good time, not a long time !' Tora, our lovely warrior from the Steppe, would happily entertain you for the night. Be it through a simple conversation or more, he will be sure to fulfill your desires to the best of his abilities. Make sure to book him for an unforgettable night !",
+        "tags": [
+            {"text": "He/Him - They/Them (NB)", "color": "purple"},
+            {"text": "Bisexual Sapphic", "color": "purple"},
+            {"text": "ERP Ok", "color": "green"},
+            {"text": "EN Only", "color": "red"}
+        ]
+    },
+    {
+        "id": 3,
+        "portrait": "src/assets/staff/hwa.png",
+        "name": "Hwa",
+        "job": "Host / Medic",
+        "bio": "",
+        "tags": [
+            {"text": "He/They", "color": "purple"},
+            {"text": "No ERP", "color": "red"},
+            {"text": "EN/FR", "color": "purple"}
+        ]
+    },
+    {
+        "id": 4,
+        "portrait": "src/assets/staff/leo.png",
+        "name": "Léo",
+        "job": "Host",
+        "bio": "",
+        "tags": [
+            {"text": "He/They", "color": "purple"},
+            {"text": "No ERP", "color": "red"},
+            {"text": "EN/FR", "color": "purple"}
+        ]
+    },
+    {
+        "id": 5,
+        "portrait": "src/assets/staff/alean.png",
+        "name": "Alean",
+        "job": "Host",
+        "bio": "",
+        "tags": [
+            {"text": "He/Him", "color": "blue"},
+            {"text": "No ERP", "color": "red"},
+            {"text": "EN/FR", "color": "purple"}
+        ]
+    }
 ]

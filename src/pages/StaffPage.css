@@ -7,20 +7,35 @@
 }
 
 .staff-member-card {
+  appearance: none;
+  border: 1px solid var(--border);
+  padding: 0;
+  font: inherit;
+  color: inherit;
   width: 280px;
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--border);
   border-radius: 8px;
-  overflow: hidden;
+  overflow: clip;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   background: var(--bg);
   align-items: center;
+  text-align: inherit;
 }
 
 .staff-member-card:hover {
   box-shadow: var(--shadow);
   transform: translateY(-4px);
+}
+
+.staff-member-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.staff-member-card.is-active {
+  box-shadow: var(--shadow);
+  border-color: var(--accent-border);
 }
 
 .staff-member-portrait {
@@ -41,12 +56,12 @@
 
 .staff-member-info {
   width: 280px;
-  max-height: 210px;
   padding: 20px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .staff-member-name {
@@ -63,6 +78,105 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.staff-member-bio {
+  margin: 0 0 12px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--text);
+  text-align: center;
+}
+
+.staff-member-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.staff-member-cta {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.staff-member-cta:hover,
+.staff-member-cta:focus-visible {
+  color: var(--text-h);
+}
+
+.staff-member-switch:focus-visible,
+.staff-member-cta:focus-visible,
+.staff-popover-close:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.staff-member-switch-row {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.staff-member-switch-label {
+  flex: 1;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-align: center;
+  opacity: 0.65;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.staff-member-switch-label.is-active {
+  opacity: 1;
+  color: var(--text-h);
+}
+
+.staff-member-switch {
+  width: 50px;
+  height: 28px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--code-bg);
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.staff-member-switch.is-on {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+
+.staff-member-switch-knob {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease;
+}
+
+.staff-member-switch.is-on .staff-member-switch-knob {
+  transform: translateX(22px);
 }
 
 .staff-member-tags {
@@ -140,6 +254,137 @@
   text-align: center;
 }
 
+#staff {
+  max-width: 100%
+}
+
+.staff-popover-backdrop {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(8, 6, 13, 0.55);
+  backdrop-filter: blur(6px);
+  z-index: 20;
+}
+
+.staff-popover {
+  position: relative;
+  width: min(900px, 100%);
+  max-height: min(90svh, 640px);
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+  text-align: left;
+  overflow: hidden;
+}
+
+.staff-popover-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 34%) 1fr;
+  min-height: min(90svh, 640px);
+}
+
+.staff-popover-portrait {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--code-bg);
+}
+
+.staff-popover-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.staff-popover-content {
+  padding: 28px;
+  overflow: auto;
+}
+
+.staff-popover-section {
+  margin: 0 0 6px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.staff-popover-variant {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.staff-popover h2 {
+  margin: 0 0 8px;
+  font-size: 2.2rem;
+}
+
+.staff-popover-job {
+  margin: 0 0 18px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+}
+
+.staff-popover-bio {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+.staff-popover-group {
+  margin-bottom: 18px;
+}
+
+.staff-popover-group h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--text-h);
+}
+
+.staff-popover-group ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.staff-popover-group li + li {
+  margin-top: 6px;
+}
+
+.staff-popover-tags {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.staff-popover-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-h);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.staff-popover-close:hover {
+  box-shadow: var(--shadow);
+}
+
 @media (max-width: 1024px) {
   .staff-grid {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -148,6 +393,14 @@
 
   .staff-member-info {
     padding: 16px;
+  }
+
+  .staff-popover {
+    max-height: min(92svh, 640px);
+  }
+
+  .staff-popover-content {
+    padding: 20px;
   }
 }
 
@@ -164,8 +417,35 @@
   .staff-member-name {
     font-size: 1.1rem;
   }
-}
 
-#staff {
-  max-width: 100%
+  .staff-popover-backdrop {
+    padding: 12px;
+  }
+
+  .staff-popover {
+    max-height: 92svh;
+    border-radius: 18px;
+  }
+
+  .staff-popover-layout {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .staff-popover-portrait {
+    height: 260px;
+  }
+
+  .staff-popover-content {
+    padding: 16px;
+  }
+
+  .staff-popover h2 {
+    font-size: 1.7rem;
+  }
+
+  .staff-popover-close {
+    top: 10px;
+    right: 10px;
+  }
 }

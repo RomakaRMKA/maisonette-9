@@ -4,6 +4,7 @@
     "portrait": "src/assets/staff/cherry.png",
     "name": "Cherry",
     "job": "DJ",
+    "bio": "",
     "tags": [
       {"text": "She/Her", "color": "pink"},
       {"text": "No ERP", "color": "red"},
@@ -15,17 +16,34 @@
     "portrait": "src/assets/staff/shaina.png",
     "name": "Shaina",
     "job": "Blackjack Dealer",
+    "bio": "",
+    "toggleLabels": {
+      "left": "Shaina (Vanilla)",
+      "right": "Kimiko (Lightless)"
+    },
     "tags": [
       {"text": "She/Her", "color": "pink"},
       {"text": "No ERP", "color": "red"},
       {"text": "EN/FR", "color": "purple"}
-    ]
+    ],
+    "alternateCard": {
+      "portrait": "src/assets/staff/shaina.png",
+      "name": "Shaina",
+      "job": "Blackjack Dealer",
+      "bio": "",
+      "tags": [
+        {"text": "She/Her", "color": "pink"},
+        {"text": "No ERP", "color": "red"},
+        {"text": "EN/FR", "color": "purple"}
+      ]
+    }
   },
   {
     "id": 3,
     "portrait": "src/assets/staff/mordy.png",
     "name": "Mordiel",
     "job": "Barmaid / Photographer",
+    "bio": "",
     "tags": [
       {"text": "She/Her", "color": "pink"},
       {"text": "No ERP", "color": "red"},
