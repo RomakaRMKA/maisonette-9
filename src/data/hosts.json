@@ -4,7 +4,7 @@
         "portrait": "src/assets/staff/tamamo.png",
         "name": "Tamamo",
         "job": "Owner and Hostess",
-        "bio": "Leads the house with a calm, polished presence and keeps the room welcoming from first greeting to last call.",
+        "bio": "",
         "tags": [
             {"text": "She/Her ", "color": "pink"},
             {"text": "No ERP", "color": "red"},
@@ -16,7 +16,7 @@
         "portrait": "src/assets/staff/tora.png",
         "name": "Tora",
         "job": "Host",
-        "bio": "High-energy host who thrives in fast rooms and keeps conversations lively without missing the mood at the table.",
+        "bio": "'Here for a good time, not a long time !' Tora, our lovely warrior from the Steppe, would happily entertain you for the night. Be it through a simple conversation or more, he will be sure to fulfill your desires to the best of his abilities. Make sure to book him for an unforgettable night !",
         "tags": [
             {"text": "He/Him - They/Them (NB)", "color": "purple"},
             {"text": "Bisexual Sapphic", "color": "purple"},
@@ -29,7 +29,7 @@
         "portrait": "src/assets/staff/hwa.png",
         "name": "Hwa",
         "job": "Host / Medic",
-        "bio": "Keeps guests grounded with a gentle host style and a medic's steady composure when nights run long.",
+        "bio": "",
         "tags": [
             {"text": "He/They", "color": "purple"},
             {"text": "No ERP", "color": "red"},
@@ -41,9 +41,21 @@
         "portrait": "src/assets/staff/leo.png",
         "name": "Léo",
         "job": "Host",
-        "bio": "Brings a warm, attentive table style and adapts quickly to quiet chats or high-energy social nights.",
+        "bio": "",
         "tags": [
             {"text": "He/They", "color": "purple"},
+            {"text": "No ERP", "color": "red"},
+            {"text": "EN/FR", "color": "purple"}
+        ]
+    },
+    {
+        "id": 5,
+        "portrait": "src/assets/staff/alean.png",
+        "name": "Alean",
+        "job": "Host",
+        "bio": "",
+        "tags": [
+            {"text": "He/Him", "color": "blue"},
             {"text": "No ERP", "color": "red"},
             {"text": "EN/FR", "color": "purple"}
         ]

@@ -4,7 +4,7 @@
     "portrait": "src/assets/staff/cherry.png",
     "name": "Cherry",
     "job": "DJ",
-    "bio": "Keeps the room moving with a curated set list and a feel for when the crowd wants a sharper beat.",
+    "bio": "",
     "tags": [
       {"text": "She/Her", "color": "pink"},
       {"text": "No ERP", "color": "red"},
@@ -16,10 +16,10 @@
     "portrait": "src/assets/staff/shaina.png",
     "name": "Shaina",
     "job": "Blackjack Dealer",
-    "bio": "Runs the blackjack table with cool precision and a dry sense of humor that keeps the table lively.",
+    "bio": "",
     "toggleLabels": {
-      "left": "Vanilla",
-      "right": "Lightless"
+      "left": "Shaina (Vanilla)",
+      "right": "Kimiko (Lightless)"
     },
     "tags": [
       {"text": "She/Her", "color": "pink"},
@@ -28,9 +28,9 @@
     ],
     "alternateCard": {
       "portrait": "src/assets/staff/shaina.png",
-      "name": "Kimiko",
+      "name": "Shaina",
       "job": "Blackjack Dealer",
-      "bio": "Slows the night down for posed portraits and keeps the camera focused on the details that usually slip by.",
+      "bio": "",
       "tags": [
         {"text": "She/Her", "color": "pink"},
         {"text": "No ERP", "color": "red"},
@@ -43,7 +43,7 @@
     "portrait": "src/assets/staff/mordy.png",
     "name": "Mordiel",
     "job": "Barmaid / Photographer",
-    "bio": "Moves between pouring drinks and catching candid moments, so the night keeps its momentum and its memories.",
+    "bio": "",
     "tags": [
       {"text": "She/Her", "color": "pink"},
       {"text": "No ERP", "color": "red"},

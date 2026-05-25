@@ -271,29 +271,39 @@
 
 .staff-popover {
   position: relative;
-  width: min(720px, 100%);
-  max-height: min(90svh, 920px);
-  overflow: auto;
-  padding: 28px;
+  width: min(900px, 100%);
+  max-height: min(90svh, 640px);
+  padding: 0;
   border: 1px solid var(--border);
   border-radius: 24px;
   background: var(--bg);
   box-shadow: var(--shadow);
   text-align: left;
+  overflow: hidden;
+}
+
+.staff-popover-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 34%) 1fr;
+  min-height: min(90svh, 640px);
 }
 
 .staff-popover-portrait {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   overflow: hidden;
-  border-radius: 18px;
-  margin-bottom: 20px;
+  background: var(--code-bg);
 }
 
 .staff-popover-portrait img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.staff-popover-content {
+  padding: 28px;
+  overflow: auto;
 }
 
 .staff-popover-section {
@@ -386,6 +396,10 @@
   }
 
   .staff-popover {
+    max-height: min(92svh, 640px);
+  }
+
+  .staff-popover-content {
     padding: 20px;
   }
 }
@@ -410,8 +424,20 @@
 
   .staff-popover {
     max-height: 92svh;
-    padding: 16px;
     border-radius: 18px;
+  }
+
+  .staff-popover-layout {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .staff-popover-portrait {
+    height: 260px;
+  }
+
+  .staff-popover-content {
+    padding: 16px;
   }
 
   .staff-popover h2 {

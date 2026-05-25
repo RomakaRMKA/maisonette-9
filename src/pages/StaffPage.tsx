@@ -200,20 +200,24 @@ function StaffPage() {
             >
               ×
             </button>
-            <div className="staff-popover-portrait">
-              <img src={resolvePortraitPath(selectedCard.card.portrait)} alt={selectedCard.card.name} />
-            </div>
-            <p className="staff-popover-section">{section}</p>
-            <p className="staff-popover-variant">{variantLabel}</p>
-            <h2 id="staff-popover-title">{selectedCard.card.name}</h2>
-            <p className="staff-popover-job">{selectedCard.card.job}</p>
-            {selectedCard.card.bio ? <p className="staff-popover-bio">{selectedCard.card.bio}</p> : null}
-            <div className="staff-member-tags staff-popover-tags">
-              {selectedCard.card.tags.map((tag) => (
-                <span key={`${selectedCard.card.name}-${tag.text}`} className="staff-tag" data-color={tag.color}>
-                  {tag.text}
-                </span>
-              ))}
+            <div className="staff-popover-layout">
+              <div className="staff-popover-portrait">
+                <img src={resolvePortraitPath(selectedCard.card.portrait)} alt={selectedCard.card.name} />
+              </div>
+              <div className="staff-popover-content">
+                <p className="staff-popover-section">{section}</p>
+                <p className="staff-popover-variant">{variantLabel}</p>
+                <h2 id="staff-popover-title">{selectedCard.card.name}</h2>
+                <p className="staff-popover-job">{selectedCard.card.job}</p>
+                {selectedCard.card.bio ? <p className="staff-popover-bio">{selectedCard.card.bio}</p> : null}
+                <div className="staff-member-tags staff-popover-tags">
+                  {selectedCard.card.tags.map((tag) => (
+                    <span key={`${selectedCard.card.name}-${tag.text}`} className="staff-tag" data-color={tag.color}>
+                      {tag.text}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </aside>
         </div>
